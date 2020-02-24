@@ -1,0 +1,11 @@
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.BoundedContext\obj\Debug\netcoreapp3.1\FacebookProjectRxWeb.BoundedContext.csprojAssemblyReference.cache
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.BoundedContext\obj\Debug\netcoreapp3.1\FacebookProjectRxWeb.BoundedContext.AssemblyInfoInputs.cache
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.BoundedContext\obj\Debug\netcoreapp3.1\FacebookProjectRxWeb.BoundedContext.AssemblyInfo.cs
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.BoundedContext\bin\Debug\netcoreapp3.1\FacebookProjectRxWeb.BoundedContext.deps.json
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.BoundedContext\bin\Debug\netcoreapp3.1\FacebookProjectRxWeb.BoundedContext.dll
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.BoundedContext\bin\Debug\netcoreapp3.1\FacebookProjectRxWeb.BoundedContext.pdb
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.BoundedContext\bin\Debug\netcoreapp3.1\FacebookProjectRxWeb.Models.dll
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.BoundedContext\bin\Debug\netcoreapp3.1\FacebookProjectRxWeb.Models.pdb
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.BoundedContext\obj\Debug\netcoreapp3.1\FacebookProjectRxWeb.BoundedContext.csproj.CopyComplete
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.BoundedContext\obj\Debug\netcoreapp3.1\FacebookProjectRxWeb.BoundedContext.dll
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.BoundedContext\obj\Debug\netcoreapp3.1\FacebookProjectRxWeb.BoundedContext.pdb

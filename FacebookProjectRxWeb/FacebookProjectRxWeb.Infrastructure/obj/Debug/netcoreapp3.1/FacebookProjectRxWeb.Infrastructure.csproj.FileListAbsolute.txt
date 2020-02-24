@@ -1,0 +1,15 @@
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\obj\Debug\netcoreapp3.1\FacebookProjectRxWeb.Infrastructure.csprojAssemblyReference.cache
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\obj\Debug\netcoreapp3.1\FacebookProjectRxWeb.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\obj\Debug\netcoreapp3.1\FacebookProjectRxWeb.Infrastructure.AssemblyInfo.cs
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\bin\Debug\netcoreapp3.1\FacebookProjectRxWeb.Infrastructure.deps.json
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\bin\Debug\netcoreapp3.1\FacebookProjectRxWeb.Infrastructure.dll
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\bin\Debug\netcoreapp3.1\FacebookProjectRxWeb.Infrastructure.pdb
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\bin\Debug\netcoreapp3.1\FacebookProjectRxWeb.BoundedContext.dll
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\bin\Debug\netcoreapp3.1\FacebookProjectRxWeb.Models.dll
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\bin\Debug\netcoreapp3.1\FacebookProjectRxWeb.UnitOfWork.dll
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\bin\Debug\netcoreapp3.1\FacebookProjectRxWeb.Models.pdb
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\bin\Debug\netcoreapp3.1\FacebookProjectRxWeb.BoundedContext.pdb
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\bin\Debug\netcoreapp3.1\FacebookProjectRxWeb.UnitOfWork.pdb
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\obj\Debug\netcoreapp3.1\FacebookProjectRxWeb.Infrastructure.csproj.CopyComplete
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\obj\Debug\netcoreapp3.1\FacebookProjectRxWeb.Infrastructure.dll
+C:\Users\radix\source\repos\FacebookProjectRxWeb\FacebookProjectRxWeb.Infrastructure\obj\Debug\netcoreapp3.1\FacebookProjectRxWeb.Infrastructure.pdb
