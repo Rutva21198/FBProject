@@ -1,6 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <Compile Remove="VPostDomain\**" />
+    <EmbeddedResource Remove="VPostDomain\**" />
+    <None Remove="VPostDomain\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Domain\vPostDomain.cs" />
   </ItemGroup>
 

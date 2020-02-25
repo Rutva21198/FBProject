@@ -22,14 +22,15 @@ namespace FBRxweb.Domain.PostModule
         {
             return await Uow.Repository<Post>().AllAsync();
 
-            //throw new NotImplementedException();
+           // throw new NotImplementedException();
         }
-        public async Task<object> FindByAsync(Post parameters)
-        {
-            return await Uow.Repository<Post>().FindByAsync(t => t.PostId==parameters.PostId );
+        // FindByAsync(t => t.PostId == parameters.PostId)
+        //   public async Task<object> FindByAsync(Post parameters)
+        //   {
+        //      return await Uow.Repository<Post>().FindByAsync(t => t.PostId==parameters.PostId );
 
-            //throw new NotImplementedException();
-        }
+        //throw new NotImplementedException();
+        //   }
 
 
 

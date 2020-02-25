@@ -2,9 +2,13 @@
 
   <ItemGroup>
     <Compile Remove="Controllers\Api\Module\**" />
+    <Compile Remove="Controllers\Api\VPostModule\**" />
     <Content Remove="Controllers\Api\Module\**" />
+    <Content Remove="Controllers\Api\VPostModule\**" />
     <EmbeddedResource Remove="Controllers\Api\Module\**" />
+    <EmbeddedResource Remove="Controllers\Api\VPostModule\**" />
     <None Remove="Controllers\Api\Module\**" />
+    <None Remove="Controllers\Api\VPostModule\**" />
   </ItemGroup>
 
   <ItemGroup>

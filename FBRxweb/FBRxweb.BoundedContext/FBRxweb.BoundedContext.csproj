@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <Compile Remove="DbContext\Main\VPostContext.cs" />
+    <Compile Remove="DbContext\Main\VPostsContext.cs" />
   </ItemGroup>
 
   <ItemGroup>

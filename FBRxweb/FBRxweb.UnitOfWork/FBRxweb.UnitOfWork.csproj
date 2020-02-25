@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <Compile Remove="Main\VPostsUow.cs" />
     <Compile Remove="Main\VPostUow.cs" />
   </ItemGroup>
 

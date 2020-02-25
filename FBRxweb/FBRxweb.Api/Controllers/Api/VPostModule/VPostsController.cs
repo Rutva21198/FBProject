@@ -13,7 +13,7 @@ namespace FBRxweb.Api.Controllers.VPostModule
 	public class VPostsController : BaseController<VPost,VPost,VPost>
 
     {
-        public VPostsController(IVPostUow uow):base(uow) {}
+        public VPostsController(IVPostsUow uow):base(uow) {}
 
     }
 }

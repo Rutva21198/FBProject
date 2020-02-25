@@ -9,16 +9,16 @@ namespace FBRxweb.Domain.VPostModule
 {
     public class VPostDomain : IVPostDomain
     {
-        public VPostDomain(IVPostUow uow) {
+        public VPostDomain(IVPostsUow uow) {
             this.Uow = uow;
         }
 
-        public Task<object> GetAsync( parameters)
+        public Task<object> GetAsync(Post parameters)
         {
             throw new NotImplementedException();
         }
 
-        public Task<object> GetBy( parameters)
+        public Task<object> GetBy(VPost parameters)
         {
             throw new NotImplementedException();
         }
@@ -46,20 +46,20 @@ namespace FBRxweb.Domain.VPostModule
             await Uow.CommitAsync();
         }
 
-        public HashSet<string> DeleteValidation( parameters)
+        public HashSet<string> DeleteValidation(VPost parameters)
         {
             return ValidationMessages;
         }
 
-        public Task DeleteAsync( parameters)
+        public Task DeleteAsync(VPost parameters)
         {
             throw new NotImplementedException();
         }
 
-        public IVPostUow Uow { get; set; }
+        public IVPostsUow Uow { get; set; }
 
         private HashSet<string> ValidationMessages { get; set; } = new HashSet<string>();
     }
 
-    public interface IVPostDomain : ICoreDomain<VPost,> { }
+    public interface IVPostDomain : ICoreDomain<VPost, VPost> { }
 }

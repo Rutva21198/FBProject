@@ -10,7 +10,7 @@ using FBRxweb.BoundedContext.Main;
 using FBRxweb.UnitOfWork.Main;
 //using FBRxweb.Domain.Module;
             using FBRxweb.Domain.PostModule;
-            using FBRxweb.Domain.VPostModule;
+           
             #endregion Namespace
 
 
@@ -41,9 +41,9 @@ namespace FBRxweb.Api.Bootstrap
             serviceCollection.AddScoped<IFacebookUow, FacebookUow>();
                         serviceCollection.AddScoped<IPostContext, PostContext>();
             serviceCollection.AddScoped<IPostUow, PostUow>();
-                        serviceCollection.AddScoped<IVPostContext, VPostContext>();
-            serviceCollection.AddScoped<IVPostUow, VPostUow>();
+            
             #endregion ContextService
+
 
 
 
@@ -58,9 +58,7 @@ namespace FBRxweb.Api.Bootstrap
             
             serviceCollection.AddScoped<IPostDomain, PostDomain>();
             
-            serviceCollection.AddScoped<IvPostDomain, vPostDomain>();
             
-            serviceCollection.AddScoped<IVPostDomain, VPostDomain>();
             #endregion DomainService
 
 
