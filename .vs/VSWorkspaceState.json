@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FacebookProjectRxWeb",
+    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Api",
+    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Api\\Controllers",
+    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Api\\Controllers\\Api",
+    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Api\\Controllers\\Api\\MasterModule",
+    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.BoundedContext\\DbContext",
+    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.BoundedContext\\DbContext\\Main",
+    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Domain\\bin",
+    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Domain\\bin\\Debug"
+  ],
+  "SelectedNode": "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.BoundedContext",
+  "PreviewInSolutionExplorer": false
+}
