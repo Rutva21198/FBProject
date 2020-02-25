@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\radix\\source\\repos\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Models\\FacebookProjectRxWeb.Models.csproj": {}
+    "D:\\facebook\\FBProject\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Models\\FacebookProjectRxWeb.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\radix\\source\\repos\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Models\\FacebookProjectRxWeb.Models.csproj": {
+    "D:\\facebook\\FBProject\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Models\\FacebookProjectRxWeb.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radix\\source\\repos\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Models\\FacebookProjectRxWeb.Models.csproj",
+        "projectUniqueName": "D:\\facebook\\FBProject\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Models\\FacebookProjectRxWeb.Models.csproj",
         "projectName": "FacebookProjectRxWeb.Models",
-        "projectPath": "C:\\Users\\radix\\source\\repos\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Models\\FacebookProjectRxWeb.Models.csproj",
+        "projectPath": "D:\\facebook\\FBProject\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Models\\FacebookProjectRxWeb.Models.csproj",
         "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radix\\source\\repos\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Models\\obj\\",
+        "outputPath": "D:\\facebook\\FBProject\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",

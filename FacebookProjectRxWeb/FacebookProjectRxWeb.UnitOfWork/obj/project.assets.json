@@ -6376,11 +6376,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radix\\source\\repos\\FacebookProjectRxWeb\\FacebookProjectRxWeb.UnitOfWork\\FacebookProjectRxWeb.UnitOfWork.csproj",
+      "projectUniqueName": "D:\\facebook\\FBProject\\FacebookProjectRxWeb\\FacebookProjectRxWeb.UnitOfWork\\FacebookProjectRxWeb.UnitOfWork.csproj",
       "projectName": "FacebookProjectRxWeb.UnitOfWork",
-      "projectPath": "C:\\Users\\radix\\source\\repos\\FacebookProjectRxWeb\\FacebookProjectRxWeb.UnitOfWork\\FacebookProjectRxWeb.UnitOfWork.csproj",
+      "projectPath": "D:\\facebook\\FBProject\\FacebookProjectRxWeb\\FacebookProjectRxWeb.UnitOfWork\\FacebookProjectRxWeb.UnitOfWork.csproj",
       "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radix\\source\\repos\\FacebookProjectRxWeb\\FacebookProjectRxWeb.UnitOfWork\\obj\\",
+      "outputPath": "D:\\facebook\\FBProject\\FacebookProjectRxWeb\\FacebookProjectRxWeb.UnitOfWork\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6396,8 +6396,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\radix\\source\\repos\\FacebookProjectRxWeb\\FacebookProjectRxWeb.BoundedContext\\FacebookProjectRxWeb.BoundedContext.csproj": {
-              "projectPath": "C:\\Users\\radix\\source\\repos\\FacebookProjectRxWeb\\FacebookProjectRxWeb.BoundedContext\\FacebookProjectRxWeb.BoundedContext.csproj"
+            "D:\\facebook\\FBProject\\FacebookProjectRxWeb\\FacebookProjectRxWeb.BoundedContext\\FacebookProjectRxWeb.BoundedContext.csproj": {
+              "projectPath": "D:\\facebook\\FBProject\\FacebookProjectRxWeb\\FacebookProjectRxWeb.BoundedContext\\FacebookProjectRxWeb.BoundedContext.csproj"
             }
           }
         }
