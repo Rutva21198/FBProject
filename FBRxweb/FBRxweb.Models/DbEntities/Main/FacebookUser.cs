@@ -201,6 +201,27 @@ namespace FBRxweb.Models.Main
 
         public virtual ICollection<PostComment> PostComments { get; set; }
 
+		#region PostMessageLikes Annotations
+
+        [InverseProperty("FacebookUser")]
+		#endregion PostMessageLikes Annotations
+
+        public virtual ICollection<PostMessageLike> PostMessageLikes { get; set; }
+
+		#region PostMessageComments Annotations
+
+        [InverseProperty("FacebookUser")]
+		#endregion PostMessageComments Annotations
+
+        public virtual ICollection<PostMessageComment> PostMessageComments { get; set; }
+
+		#region PostMessageShares Annotations
+
+        [InverseProperty("FacebookUser")]
+		#endregion PostMessageShares Annotations
+
+        public virtual ICollection<PostMessageShare> PostMessageShares { get; set; }
+
 
         public FacebookUser()
         {
@@ -219,6 +240,9 @@ namespace FBRxweb.Models.Main
 			PostLikes = new HashSet<PostLike>();
 			LogActivities = new HashSet<LogActivity>();
 			PostComments = new HashSet<PostComment>();
+			PostMessageLikes = new HashSet<PostMessageLike>();
+			PostMessageComments = new HashSet<PostMessageComment>();
+			PostMessageShares = new HashSet<PostMessageShare>();
         }
 	}
 }

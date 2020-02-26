@@ -15,6 +15,9 @@ import {FacebookUserWorkBase} from '../database-models/facebook-user-work-base';
 import {PostLikeBase} from '../database-models/post-like-base';
 import {LogActivityBase} from '../database-models/log-activity-base';
 import {PostCommentBase} from '../database-models/post-comment-base';
+import {PostMessageLikeBase} from '../database-models/post-message-like-base';
+import {PostMessageCommentBase} from '../database-models/post-message-comment-base';
+import {PostMessageShareBase} from '../database-models/post-message-share-base';
 //Generated Imports
 export class FacebookUser extends FacebookUserBase 
 {
@@ -72,7 +75,25 @@ logActivities : LogActivityBase[];
 postComments : PostCommentBase[];
 //#endregion postComments Prop
 
+//#region postMessageLikes Prop
+        postMessageLikes : PostMessageLikeBase[];
+//#endregion postMessageLikes Prop
+
+//#region postMessageComments Prop
+        postMessageComments : PostMessageCommentBase[];
+//#endregion postMessageComments Prop
+
+//#region postMessageShares Prop
+        postMessageShares : PostMessageShareBase[];
+//#endregion postMessageShares Prop
+
 //#endregion Generated Reference Properties
+
+
+
+
+
+
 
 
 

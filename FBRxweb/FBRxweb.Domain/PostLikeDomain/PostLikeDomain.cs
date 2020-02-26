@@ -5,53 +5,53 @@ using RxWeb.Core;
 using FBRxweb.UnitOfWork.Main;
 using FBRxweb.Models.Main;
 
-namespace FBRxweb.Domain.Module
+namespace FBRxweb.Domain.PostLikeModule
 {
-    public class PostDomain : IPostDomain
+    public class PostLikeDomain : IPostLikeDomain
     {
-        public PostDomain(IPostUow uow) {
+        public PostLikeDomain(IPostUow uow) {
             this.Uow = uow;
         }
 
-        public Task<object> GetAsync(Post parameters)
+        public Task<object> GetAsync(PostLike parameters)
         {
             throw new NotImplementedException();
         }
 
-        public Task<object> GetBy(Post parameters)
+        public Task<object> GetBy(PostLike parameters)
         {
             throw new NotImplementedException();
         }
         
 
-        public HashSet<string> AddValidation(Post entity)
+        public HashSet<string> AddValidation(PostLike entity)
         {
             return ValidationMessages;
         }
 
-        public async Task AddAsync(Post entity)
+        public async Task AddAsync(PostLike entity)
         {
             await Uow.RegisterNewAsync(entity);
             await Uow.CommitAsync();
         }
 
-        public HashSet<string> UpdateValidation(Post entity)
+        public HashSet<string> UpdateValidation(PostLike entity)
         {
             return ValidationMessages;
         }
 
-        public async Task UpdateAsync(Post entity)
+        public async Task UpdateAsync(PostLike entity)
         {
             await Uow.RegisterDirtyAsync(entity);
             await Uow.CommitAsync();
         }
 
-        public HashSet<string> DeleteValidation(Post parameters)
+        public HashSet<string> DeleteValidation(PostLike parameters)
         {
             return ValidationMessages;
         }
 
-        public Task DeleteAsync(Post parameters)
+        public Task DeleteAsync(PostLike parameters)
         {
             throw new NotImplementedException();
         }
@@ -61,5 +61,5 @@ namespace FBRxweb.Domain.Module
         private HashSet<string> ValidationMessages { get; set; } = new HashSet<string>();
     }
 
-    public interface IPostDomain : ICoreDomain<Post, Post> { }
+    public interface IPostLikeDomain : ICoreDomain<PostLike, PostLike> { }
 }

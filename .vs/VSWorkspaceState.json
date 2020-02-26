@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\FacebookProjectRxWeb",
-    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Api",
-    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Api\\Controllers",
-    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Api\\Controllers\\Api",
-    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Api\\Controllers\\Api\\MasterModule",
-    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.BoundedContext\\DbContext",
-    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.BoundedContext\\DbContext\\Main",
-    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Domain\\bin",
-    "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.Domain\\bin\\Debug"
+    "\\FBRxweb",
+    "\\FBRxweb\\FBRxweb.Api",
+    "\\FBRxweb\\FBRxweb.Domain",
+    "\\FBRxweb\\FBRxweb.Domain\\Domain",
+    "\\FBRxweb\\FBRxweb.Domain\\PostDomain",
+    "\\FBRxweb\\FBRxweb.Infrastructure",
+    "\\FBRxweb\\FBRxweb.Models",
+    "\\FBRxweb\\FBRxweb.Models\\DbEntities\\Main",
+    "\\FBRxweb\\FBRxweb.UnitOfWork"
   ],
-  "SelectedNode": "\\FacebookProjectRxWeb\\FacebookProjectRxWeb.BoundedContext",
+  "SelectedNode": "\\FBRxweb\\FBRxweb.Domain\\PostDomain\\PostDomain.cs",
   "PreviewInSolutionExplorer": false
 }

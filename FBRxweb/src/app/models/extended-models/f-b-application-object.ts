@@ -38,4 +38,10 @@ educationDetails : EducationDetailBase[];
 
 
 
+
+
+
+
+
+
 }

@@ -11,6 +11,9 @@ namespace FBRxweb.Models.Main
     public partial class vPost
     {
 
+        public string FirstName { get; set; }
+
+
         public string Caption { get; set; }
 
 
@@ -21,17 +24,6 @@ namespace FBRxweb.Models.Main
 
 
         public System.DateTimeOffset CreatedDateTime { get; set; }
-
-		#region LikeId Annotations
-
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [System.ComponentModel.DataAnnotations.Key]
-		#endregion LikeId Annotations
-
-        public int LikeId { get; set; }
-
-
-        public int ShareId { get; set; }
 
 
         public vPost()

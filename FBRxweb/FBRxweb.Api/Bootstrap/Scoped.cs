@@ -9,9 +9,21 @@ using FBRxweb.UnitOfWork.DbEntityAudit;
 using FBRxweb.BoundedContext.Main;
 using FBRxweb.UnitOfWork.Main;
 //using FBRxweb.Domain.Module;
-            using FBRxweb.Domain.PostModule;
+            
            
+            
+         
+            using FBRxweb.Domain.PostCommentModule;
+            using FBRxweb.Domain.PostLikeModule;
+            using FBRxweb.Domain.ViewPostModule;
             #endregion Namespace
+
+
+
+
+
+
+
 
 
 
@@ -42,7 +54,13 @@ namespace FBRxweb.Api.Bootstrap
                         serviceCollection.AddScoped<IPostContext, PostContext>();
             serviceCollection.AddScoped<IPostUow, PostUow>();
             
+                
+                        serviceCollection.AddScoped<IViewPostContext, ViewPostContext>();
+            serviceCollection.AddScoped<IViewPostUow, ViewPostUow>();
             #endregion ContextService
+
+
+
 
 
 
@@ -54,12 +72,25 @@ namespace FBRxweb.Api.Bootstrap
             #region DomainService
 
             
-            serviceCollection.AddScoped<IPostDomain, PostDomain>();
+          
+          
             
-            serviceCollection.AddScoped<IPostDomain, PostDomain>();
+           
             
+            serviceCollection.AddScoped<IPostCommentDomain, PostCommentDomain>();
             
+            serviceCollection.AddScoped<IPostLikeDomain, PostLikeDomain>();
+            
+            serviceCollection.AddScoped<IViewPostDomain, ViewPostDomain>();
             #endregion DomainService
+
+
+
+
+
+
+
+
 
 
 

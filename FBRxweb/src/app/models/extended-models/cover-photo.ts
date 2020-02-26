@@ -22,4 +22,10 @@ facebookUserDetails : FacebookUserDetailBase[];
 
 
 
+
+
+
+
+
+
 }

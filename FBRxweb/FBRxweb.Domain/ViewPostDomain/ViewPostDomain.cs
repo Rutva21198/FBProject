@@ -5,20 +5,20 @@ using RxWeb.Core;
 using FBRxweb.UnitOfWork.Main;
 using FBRxweb.Models.Main;
 
-namespace FBRxweb.Domain.Module
+namespace FBRxweb.Domain.ViewPostModule
 {
-    public class vPostDomain : IvPostDomain
+    public class ViewPostDomain : IViewPostDomain
     {
-        public vPostDomain(IUow uow) {
+        public ViewPostDomain(IViewPostUow uow) {
             this.Uow = uow;
         }
 
-        public Task<object> GetAsync( parameters)
+        public async Task<object> GetAsync(vPost parameters)
         {
-            throw new NotImplementedException();
+            return await Uow.Repository<vPost>().AllAsync();
         }
 
-        public Task<object> GetBy( parameters)
+        public Task<object> GetBy(vPost parameters)
         {
             throw new NotImplementedException();
         }
@@ -46,20 +46,20 @@ namespace FBRxweb.Domain.Module
             await Uow.CommitAsync();
         }
 
-        public HashSet<string> DeleteValidation( parameters)
+        public HashSet<string> DeleteValidation(vPost parameters)
         {
             return ValidationMessages;
         }
 
-        public Task DeleteAsync( parameters)
+        public Task DeleteAsync(vPost parameters)
         {
             throw new NotImplementedException();
         }
 
-        public IUow Uow { get; set; }
+        public IViewPostUow Uow { get; set; }
 
         private HashSet<string> ValidationMessages { get; set; } = new HashSet<string>();
     }
 
-    public interface IvPostDomain : ICoreDomain<vPost,> { }
+    public interface IViewPostDomain : ICoreDomain<vPost,vPost> { }
 }

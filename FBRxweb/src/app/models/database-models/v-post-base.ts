@@ -4,6 +4,12 @@ import { gridColumn } from "@rxweb/grid"
 
 export class vPostBase {
 
+//#region firstName Prop
+        @gridColumn({visible: true, columnIndex:6, allowSorting: true, headerKey: 'firstName', keyColumn: false})
+        firstName : string;
+//#endregion firstName Prop
+
+
 //#region caption Prop
         @gridColumn({visible: true, columnIndex:0, allowSorting: true, headerKey: 'caption', keyColumn: false})
         caption : string;
@@ -26,17 +32,5 @@ export class vPostBase {
         @gridColumn({visible: true, columnIndex:3, allowSorting: true, headerKey: 'createdDateTime', keyColumn: false})
         createdDateTime : any;
 //#endregion createdDateTime Prop
-
-
-//#region likeId Prop
-        @gridColumn({visible: true, columnIndex:4, allowSorting: true, headerKey: 'likeId', keyColumn: true})
-        likeId : number;
-//#endregion likeId Prop
-
-
-//#region shareId Prop
-        @gridColumn({visible: true, columnIndex:5, allowSorting: true, headerKey: 'shareId', keyColumn: false})
-        shareId : number;
-//#endregion shareId Prop
 
 }
