@@ -16,7 +16,11 @@ using FBRxweb.UnitOfWork.Main;
             using FBRxweb.Domain.PostCommentModule;
             using FBRxweb.Domain.PostLikeModule;
             using FBRxweb.Domain.ViewPostModule;
+            using FBRxweb.Domain.FacebookUserWorkModule;
+            using FBRxweb.Domain.EducationDetailModule;
             #endregion Namespace
+
+
 
 
 
@@ -57,7 +61,13 @@ namespace FBRxweb.Api.Bootstrap
                 
                         serviceCollection.AddScoped<IViewPostContext, ViewPostContext>();
             serviceCollection.AddScoped<IViewPostUow, ViewPostUow>();
+                        serviceCollection.AddScoped<IFacebookUserWorkContext, FacebookUserWorkContext>();
+            serviceCollection.AddScoped<IFacebookUserWorkUow, FacebookUserWorkUow>();
+                        serviceCollection.AddScoped<IEducationDetailContext, EducationDetailContext>();
+            serviceCollection.AddScoped<IEducationDetailUow, EducationDetailUow>();
             #endregion ContextService
+
+
 
 
 
@@ -82,7 +92,13 @@ namespace FBRxweb.Api.Bootstrap
             serviceCollection.AddScoped<IPostLikeDomain, PostLikeDomain>();
             
             serviceCollection.AddScoped<IViewPostDomain, ViewPostDomain>();
+            
+            serviceCollection.AddScoped<IFacebookUserWorkDomain, FacebookUserWorkDomain>();
+            
+            serviceCollection.AddScoped<IEducationDetailDomain, EducationDetailDomain>();
             #endregion DomainService
+
+
 
 
 
