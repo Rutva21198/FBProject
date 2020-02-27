@@ -2131,10 +2131,7 @@
         },
         "runtime": {
           "bin/placeholder/FBRxweb.Domain.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "FBRxweb.Infrastructure/1.0.0": {
         "type": "project",
@@ -2154,10 +2151,7 @@
         },
         "runtime": {
           "bin/placeholder/FBRxweb.Infrastructure.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "FBRxweb.Models/1.0.0": {
         "type": "project",
@@ -7216,19 +7210,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\radix\\.nuget\\packages\\": {}
+    "C:\\Users\\Gagan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.Api\\FBRxweb.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Gagan\\source\\repos\\FBProjects\\FBRxweb\\FBRxweb.Api\\FBRxweb.Api.csproj",
       "projectName": "FBRxweb.Api",
-      "projectPath": "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.Api\\FBRxweb.Api.csproj",
-      "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.Api\\obj\\",
+      "projectPath": "C:\\Users\\Gagan\\source\\repos\\FBProjects\\FBRxweb\\FBRxweb.Api\\FBRxweb.Api.csproj",
+      "packagesPath": "C:\\Users\\Gagan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gagan\\source\\repos\\FBProjects\\FBRxweb\\FBRxweb.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gagan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7241,20 +7235,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.BoundedContext\\FBRxweb.BoundedContext.csproj": {
-              "projectPath": "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.BoundedContext\\FBRxweb.BoundedContext.csproj"
+            "C:\\Users\\Gagan\\source\\repos\\FBProjects\\FBRxweb\\FBRxweb.BoundedContext\\FBRxweb.BoundedContext.csproj": {
+              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FBProjects\\FBRxweb\\FBRxweb.BoundedContext\\FBRxweb.BoundedContext.csproj"
             },
-            "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.Domain\\FBRxweb.Domain.csproj": {
-              "projectPath": "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.Domain\\FBRxweb.Domain.csproj"
+            "C:\\Users\\Gagan\\source\\repos\\FBProjects\\FBRxweb\\FBRxweb.Domain\\FBRxweb.Domain.csproj": {
+              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FBProjects\\FBRxweb\\FBRxweb.Domain\\FBRxweb.Domain.csproj"
             },
-            "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.Infrastructure\\FBRxweb.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.Infrastructure\\FBRxweb.Infrastructure.csproj"
+            "C:\\Users\\Gagan\\source\\repos\\FBProjects\\FBRxweb\\FBRxweb.Infrastructure\\FBRxweb.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FBProjects\\FBRxweb\\FBRxweb.Infrastructure\\FBRxweb.Infrastructure.csproj"
             },
-            "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.Models\\FBRxweb.Models.csproj": {
-              "projectPath": "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.Models\\FBRxweb.Models.csproj"
+            "C:\\Users\\Gagan\\source\\repos\\FBProjects\\FBRxweb\\FBRxweb.Models\\FBRxweb.Models.csproj": {
+              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FBProjects\\FBRxweb\\FBRxweb.Models\\FBRxweb.Models.csproj"
             },
-            "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.UnitOfWork\\FBRxweb.UnitOfWork.csproj": {
-              "projectPath": "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.UnitOfWork\\FBRxweb.UnitOfWork.csproj"
+            "C:\\Users\\Gagan\\source\\repos\\FBProjects\\FBRxweb\\FBRxweb.UnitOfWork\\FBRxweb.UnitOfWork.csproj": {
+              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FBProjects\\FBRxweb\\FBRxweb.UnitOfWork\\FBRxweb.UnitOfWork.csproj"
             }
           }
         }

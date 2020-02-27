@@ -35,16 +35,4 @@ export class PostBase {
         mediaTypeAO : number;
 //#endregion mediaTypeAO Prop
 
-
-
-
-
-
-
-
-
-
-
-
-
 }

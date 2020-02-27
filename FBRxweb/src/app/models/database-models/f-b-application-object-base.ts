@@ -23,16 +23,4 @@ export class FBApplicationObjectBase {
         applicationObjectName : string;
 //#endregion applicationObjectName Prop
 
-
-
-
-
-
-
-
-
-
-
-
-
 }

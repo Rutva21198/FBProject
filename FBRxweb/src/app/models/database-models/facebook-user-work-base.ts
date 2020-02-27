@@ -41,6 +41,4 @@ export class FacebookUserWorkBase {
         workEndDate : Date;
 //#endregion workEndDate Prop
 
-
-
 }

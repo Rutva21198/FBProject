@@ -22,6 +22,4 @@ export class PostCaptionBase {
         postId : number;
 //#endregion postId Prop
 
-
-
 }

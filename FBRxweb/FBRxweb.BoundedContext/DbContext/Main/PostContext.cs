@@ -18,9 +18,9 @@ namespace FBRxweb.BoundedContext.Main
             #region DbSets 
         public DbSet<Post> Posts { get; set; }
         public DbSet<vPost> vPosts { get; set; }
-        public DbSet<PostLike> PostLike { get; set; }
+      
 		public DbSet<PostCaption> PostCaption { get; set; }
-		public DbSet<PostComment> PostComment { get; set; }
+		
 		public DbSet<PostShare> PostShare { get; set; }
 		public DbSet<FacebookUser> FacebookUser { get; set; }
             		public DbSet<PostMessage> PostMessage { get; set; } 

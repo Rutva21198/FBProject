@@ -28,12 +28,4 @@ export class PostMessageBase {
         postDateTime : any;
 //#endregion postDateTime Prop
 
-
-
-
-
-
-
-
-
 }

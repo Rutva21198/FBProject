@@ -3,14 +3,12 @@
     "",
     "\\FBRxweb",
     "\\FBRxweb\\FBRxweb.Api",
+    "\\FBRxweb\\FBRxweb.Api\\Controllers",
+    "\\FBRxweb\\FBRxweb.Api\\Controllers\\Api",
     "\\FBRxweb\\FBRxweb.Domain",
-    "\\FBRxweb\\FBRxweb.Domain\\Domain",
-    "\\FBRxweb\\FBRxweb.Domain\\PostDomain",
     "\\FBRxweb\\FBRxweb.Infrastructure",
     "\\FBRxweb\\FBRxweb.Models",
-    "\\FBRxweb\\FBRxweb.Models\\DbEntities\\Main",
     "\\FBRxweb\\FBRxweb.UnitOfWork"
   ],
-  "SelectedNode": "\\FBRxweb\\FBRxweb.Domain\\PostDomain\\PostDomain.cs",
   "PreviewInSolutionExplorer": false
 }

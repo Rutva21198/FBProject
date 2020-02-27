@@ -40,7 +40,7 @@ export class FacebookUserBase {
 //#region password Prop
         @required()
         @maxLength({value:200})
-        password : string;
+        password : any;
 //#endregion password Prop
 
 
@@ -69,41 +69,10 @@ export class FacebookUserBase {
 //#endregion loginStatus Prop
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//#region salt Prop
+        @required()
+        @maxLength({value:140})
+        salt : any;
+//#endregion salt Prop
 
 }

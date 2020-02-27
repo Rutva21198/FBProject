@@ -16,6 +16,4 @@ export class FBApplicationObjectTypeBase {
         applicationObjectTypeName : string;
 //#endregion applicationObjectTypeName Prop
 
-
-
 }

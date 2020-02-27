@@ -23,8 +23,4 @@ export class PostShareBase {
         userId : number;
 //#endregion userId Prop
 
-
-
-
-
 }

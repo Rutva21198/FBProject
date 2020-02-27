@@ -22,8 +22,4 @@ export class CoverPhotoBase {
         userId : number;
 //#endregion userId Prop
 
-
-
-
-
 }
