@@ -23,7 +23,6 @@ namespace FBRxweb.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("FBApplicationObjectTypes","dbo","","ApplicationObjectTypeId")]
 		#endregion ApplicationObjectTypeId Annotations
 
         public int ApplicationObjectTypeId { get; set; }
@@ -36,57 +35,9 @@ namespace FBRxweb.Models.Main
 
         public string ApplicationObjectName { get; set; }
 
-		#region FBApplicationObjectType Annotations
-
-        [ForeignKey(nameof(ApplicationObjectTypeId))]
-        [InverseProperty(nameof(FBRxweb.Models.Main.FBApplicationObjectType.FBApplicationObjects))]
-		#endregion FBApplicationObjectType Annotations
-
-        public virtual FBApplicationObjectType FBApplicationObjectType { get; set; }
-
-		#region FacebookUserDetails Annotations
-
-        [InverseProperty("FBApplicationObject")]
-		#endregion FacebookUserDetails Annotations
-
-        public virtual ICollection<FacebookUserDetail> FacebookUserDetails { get; set; }
-
-		#region FacebookUsers Annotations
-
-        [InverseProperty("FBApplicationObject")]
-		#endregion FacebookUsers Annotations
-
-        public virtual ICollection<FacebookUser> FacebookUsers { get; set; }
-
-		#region Posts Annotations
-
-        [InverseProperty("FBApplicationObject")]
-		#endregion Posts Annotations
-
-        public virtual ICollection<Post> Posts { get; set; }
-
-		#region ChatMedia Annotations
-
-        [InverseProperty("FBApplicationObject")]
-		#endregion ChatMedia Annotations
-
-        public virtual ICollection<ChatMedia> ChatMedia { get; set; }
-
-		#region EducationDetails Annotations
-
-        [InverseProperty("FBApplicationObject")]
-		#endregion EducationDetails Annotations
-
-        public virtual ICollection<EducationDetail> EducationDetails { get; set; }
-
 
         public FBApplicationObject()
         {
-			FacebookUserDetails = new HashSet<FacebookUserDetail>();
-			FacebookUsers = new HashSet<FacebookUser>();
-			Posts = new HashSet<Post>();
-			ChatMedia = new HashSet<ChatMedia>();
-			EducationDetails = new HashSet<EducationDetail>();
         }
 	}
 }

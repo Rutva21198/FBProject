@@ -52,7 +52,6 @@ namespace FBRxweb.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("FBApplicationObjects","dbo","","SchoolCollegeAO")]
 		#endregion SchoolCollegeAO Annotations
 
         public int SchoolCollegeAO { get; set; }
@@ -75,26 +74,9 @@ namespace FBRxweb.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("FacebookUsers","dbo","","UserId")]
 		#endregion UserId Annotations
 
         public int UserId { get; set; }
-
-		#region FBApplicationObject Annotations
-
-        [ForeignKey(nameof(SchoolCollegeAO))]
-        [InverseProperty(nameof(FBRxweb.Models.Main.FBApplicationObject.EducationDetails))]
-		#endregion FBApplicationObject Annotations
-
-        public virtual FBApplicationObject FBApplicationObject { get; set; }
-
-		#region FacebookUser Annotations
-
-        [ForeignKey(nameof(UserId))]
-        [InverseProperty(nameof(FBRxweb.Models.Main.FacebookUser.EducationDetails))]
-		#endregion FacebookUser Annotations
-
-        public virtual FacebookUser FacebookUser { get; set; }
 
 
         public EducationDetail()

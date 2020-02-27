@@ -22,8 +22,4 @@ export class ProfilePhotoBase {
         userId : number;
 //#endregion userId Prop
 
-
-
-
-
 }

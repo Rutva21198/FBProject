@@ -42,10 +42,4 @@ export class ChatMediaBase {
         sendDateTime : any;
 //#endregion sendDateTime Prop
 
-
-
-
-
-
-
 }

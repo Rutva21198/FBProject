@@ -30,30 +30,13 @@ namespace FBRxweb.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("FacebookUsers","dbo","","UserId")]
 		#endregion UserId Annotations
 
         public int UserId { get; set; }
 
-		#region FacebookUser Annotations
-
-        [ForeignKey(nameof(UserId))]
-        [InverseProperty(nameof(FBRxweb.Models.Main.FacebookUser.CoverPhotos))]
-		#endregion FacebookUser Annotations
-
-        public virtual FacebookUser FacebookUser { get; set; }
-
-		#region FacebookUserDetails Annotations
-
-        [InverseProperty("CoverPhoto")]
-		#endregion FacebookUserDetails Annotations
-
-        public virtual ICollection<FacebookUserDetail> FacebookUserDetails { get; set; }
-
 
         public CoverPhoto()
         {
-			FacebookUserDetails = new HashSet<FacebookUserDetail>();
         }
 	}
 }

@@ -29,8 +29,4 @@ export class PostCommentBase {
         userId : number;
 //#endregion userId Prop
 
-
-
-
-
 }

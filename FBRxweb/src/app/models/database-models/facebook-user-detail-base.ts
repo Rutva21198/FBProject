@@ -52,12 +52,4 @@ export class FacebookUserDetailBase {
         coverPhotoId : number;
 //#endregion coverPhotoId Prop
 
-
-
-
-
-
-
-
-
 }

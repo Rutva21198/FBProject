@@ -30,18 +30,9 @@ namespace FBRxweb.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("Posts","dbo","","PostId")]
 		#endregion PostId Annotations
 
         public int PostId { get; set; }
-
-		#region Post Annotations
-
-        [ForeignKey(nameof(PostId))]
-        [InverseProperty(nameof(FBRxweb.Models.Main.Post.PostCaptions))]
-		#endregion Post Annotations
-
-        public virtual Post Post { get; set; }
 
 
         public PostCaption()

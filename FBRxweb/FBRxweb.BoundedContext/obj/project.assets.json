@@ -6353,19 +6353,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\radix\\.nuget\\packages\\": {}
+    "C:\\Users\\Gagan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.BoundedContext\\FBRxweb.BoundedContext.csproj",
+      "projectUniqueName": "C:\\Users\\Gagan\\source\\repos\\FBProject25\\FBRxweb\\FBRxweb.BoundedContext\\FBRxweb.BoundedContext.csproj",
       "projectName": "FBRxweb.BoundedContext",
-      "projectPath": "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.BoundedContext\\FBRxweb.BoundedContext.csproj",
-      "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.BoundedContext\\obj\\",
+      "projectPath": "C:\\Users\\Gagan\\source\\repos\\FBProject25\\FBRxweb\\FBRxweb.BoundedContext\\FBRxweb.BoundedContext.csproj",
+      "packagesPath": "C:\\Users\\Gagan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gagan\\source\\repos\\FBProject25\\FBRxweb\\FBRxweb.BoundedContext\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gagan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6378,8 +6378,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.Models\\FBRxweb.Models.csproj": {
-              "projectPath": "C:\\Users\\radix\\source\\repos\\FBRx\\FBRxweb\\FBRxweb.Models\\FBRxweb.Models.csproj"
+            "C:\\Users\\Gagan\\source\\repos\\FBProject25\\FBRxweb\\FBRxweb.Models\\FBRxweb.Models.csproj": {
+              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FBProject25\\FBRxweb\\FBRxweb.Models\\FBRxweb.Models.csproj"
             }
           }
         }

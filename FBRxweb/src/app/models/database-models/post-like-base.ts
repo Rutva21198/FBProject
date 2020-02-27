@@ -23,8 +23,4 @@ export class PostLikeBase {
         userId : number;
 //#endregion userId Prop
 
-
-
-
-
 }

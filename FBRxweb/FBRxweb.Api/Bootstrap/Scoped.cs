@@ -9,9 +9,26 @@ using FBRxweb.UnitOfWork.DbEntityAudit;
 using FBRxweb.BoundedContext.Main;
 using FBRxweb.UnitOfWork.Main;
 //using FBRxweb.Domain.Module;
-            using FBRxweb.Domain.PostModule;
+            
            
+            
+         
+            
+            using FBRxweb.Domain.ViewPostModule;
+            using FBRxweb.Domain.FacebookUserWorkModule;
+            using FBRxweb.Domain.EducationDetailModule;
+            using FBRxweb.Domain.FacebookuserModule;
             #endregion Namespace
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -42,7 +59,22 @@ namespace FBRxweb.Api.Bootstrap
                         serviceCollection.AddScoped<IPostContext, PostContext>();
             serviceCollection.AddScoped<IPostUow, PostUow>();
             
+                
+                        serviceCollection.AddScoped<IViewPostContext, ViewPostContext>();
+            serviceCollection.AddScoped<IViewPostUow, ViewPostUow>();
+                        serviceCollection.AddScoped<IFacebookUserWorkContext, FacebookUserWorkContext>();
+            serviceCollection.AddScoped<IFacebookUserWorkUow, FacebookUserWorkUow>();
+                        serviceCollection.AddScoped<IEducationDetailContext, EducationDetailContext>();
+            serviceCollection.AddScoped<IEducationDetailUow, EducationDetailUow>();
+                        serviceCollection.AddScoped<IFacebookUserContext, FacebookUserContext>();
+            serviceCollection.AddScoped<IFacebookUserUow, FacebookUserUow>();
             #endregion ContextService
+
+
+
+
+
+
 
 
 
@@ -54,12 +86,32 @@ namespace FBRxweb.Api.Bootstrap
             #region DomainService
 
             
-            serviceCollection.AddScoped<IPostDomain, PostDomain>();
+          
+          
             
-            serviceCollection.AddScoped<IPostDomain, PostDomain>();
+           
             
+          
             
+            serviceCollection.AddScoped<IViewPostDomain, ViewPostDomain>();
+            
+            serviceCollection.AddScoped<IFacebookUserWorkDomain, FacebookUserWorkDomain>();
+            
+            serviceCollection.AddScoped<IEducationDetailDomain, EducationDetailDomain>();
+            
+            serviceCollection.AddScoped<IFacebookUserDomain, FacebookUserDomain>();
             #endregion DomainService
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -30,7 +30,6 @@ namespace FBRxweb.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("FacebookUsers","dbo","","UserId")]
 		#endregion UserId Annotations
 
         public int UserId { get; set; }
@@ -41,14 +40,6 @@ namespace FBRxweb.Models.Main
 		#endregion PostDateTime Annotations
 
         public System.DateTimeOffset PostDateTime { get; set; }
-
-		#region FacebookUser Annotations
-
-        [ForeignKey(nameof(UserId))]
-        [InverseProperty(nameof(FBRxweb.Models.Main.FacebookUser.PostMessages))]
-		#endregion FacebookUser Annotations
-
-        public virtual FacebookUser FacebookUser { get; set; }
 
 
         public PostMessage()

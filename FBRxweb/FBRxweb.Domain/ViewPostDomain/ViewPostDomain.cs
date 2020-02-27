@@ -5,61 +5,61 @@ using RxWeb.Core;
 using FBRxweb.UnitOfWork.Main;
 using FBRxweb.Models.Main;
 
-namespace FBRxweb.Domain.Module
+namespace FBRxweb.Domain.ViewPostModule
 {
-    public class PostDomain : IPostDomain
+    public class ViewPostDomain : IViewPostDomain
     {
-        public PostDomain(IPostUow uow) {
+        public ViewPostDomain(IViewPostUow uow) {
             this.Uow = uow;
         }
 
-        public Task<object> GetAsync(Post parameters)
+        public async Task<object> GetAsync(vPost parameters)
         {
-            throw new NotImplementedException();
+            return await Uow.Repository<vPost>().AllAsync();
         }
 
-        public Task<object> GetBy(Post parameters)
+        public Task<object> GetBy(vPost parameters)
         {
             throw new NotImplementedException();
         }
         
 
-        public HashSet<string> AddValidation(Post entity)
+        public HashSet<string> AddValidation(vPost entity)
         {
             return ValidationMessages;
         }
 
-        public async Task AddAsync(Post entity)
+        public async Task AddAsync(vPost entity)
         {
             await Uow.RegisterNewAsync(entity);
             await Uow.CommitAsync();
         }
 
-        public HashSet<string> UpdateValidation(Post entity)
+        public HashSet<string> UpdateValidation(vPost entity)
         {
             return ValidationMessages;
         }
 
-        public async Task UpdateAsync(Post entity)
+        public async Task UpdateAsync(vPost entity)
         {
             await Uow.RegisterDirtyAsync(entity);
             await Uow.CommitAsync();
         }
 
-        public HashSet<string> DeleteValidation(Post parameters)
+        public HashSet<string> DeleteValidation(vPost parameters)
         {
             return ValidationMessages;
         }
 
-        public Task DeleteAsync(Post parameters)
+        public Task DeleteAsync(vPost parameters)
         {
             throw new NotImplementedException();
         }
 
-        public IPostUow Uow { get; set; }
+        public IViewPostUow Uow { get; set; }
 
         private HashSet<string> ValidationMessages { get; set; } = new HashSet<string>();
     }
 
-    public interface IPostDomain : ICoreDomain<Post, Post> { }
+    public interface IViewPostDomain : ICoreDomain<vPost,vPost> { }
 }

@@ -23,7 +23,6 @@ namespace FBRxweb.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("FacebookUsers","dbo","","UserId")]
 		#endregion UserId Annotations
 
         public int UserId { get; set; }
@@ -42,61 +41,17 @@ namespace FBRxweb.Models.Main
 
         public string HomeTown { get; set; }
 
-		#region RelationshipAO Annotations
-
-        [RelationshipTableAttribue("FBApplicationObjects","dbo","","RelationshipAO")]
-		#endregion RelationshipAO Annotations
 
         public Nullable<int> RelationshipAO { get; set; }
 
 
         public string Bio { get; set; }
 
-		#region ProfilePhotoId Annotations
-
-        [RelationshipTableAttribue("ProfilePhotos","dbo","","ProfilePhotoId")]
-		#endregion ProfilePhotoId Annotations
 
         public Nullable<int> ProfilePhotoId { get; set; }
 
-		#region CoverPhotoId Annotations
-
-        [RelationshipTableAttribue("CoverPhotos","dbo","","CoverPhotoId")]
-		#endregion CoverPhotoId Annotations
 
         public Nullable<int> CoverPhotoId { get; set; }
-
-		#region CoverPhoto Annotations
-
-        [ForeignKey(nameof(CoverPhotoId))]
-        [InverseProperty(nameof(FBRxweb.Models.Main.CoverPhoto.FacebookUserDetails))]
-		#endregion CoverPhoto Annotations
-
-        public virtual CoverPhoto CoverPhoto { get; set; }
-
-		#region FacebookUser Annotations
-
-        [ForeignKey(nameof(UserId))]
-        [InverseProperty(nameof(FBRxweb.Models.Main.FacebookUser.FacebookUserDetails))]
-		#endregion FacebookUser Annotations
-
-        public virtual FacebookUser FacebookUser { get; set; }
-
-		#region FBApplicationObject Annotations
-
-        [ForeignKey(nameof(RelationshipAO))]
-        [InverseProperty(nameof(FBRxweb.Models.Main.FBApplicationObject.FacebookUserDetails))]
-		#endregion FBApplicationObject Annotations
-
-        public virtual FBApplicationObject FBApplicationObject { get; set; }
-
-		#region ProfilePhoto Annotations
-
-        [ForeignKey(nameof(ProfilePhotoId))]
-        [InverseProperty(nameof(FBRxweb.Models.Main.ProfilePhoto.FacebookUserDetails))]
-		#endregion ProfilePhoto Annotations
-
-        public virtual ProfilePhoto ProfilePhoto { get; set; }
 
 
         public FacebookUserDetail()

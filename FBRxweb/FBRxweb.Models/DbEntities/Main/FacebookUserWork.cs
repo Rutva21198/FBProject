@@ -34,7 +34,6 @@ namespace FBRxweb.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("FacebookUsers","dbo","","UserId")]
 		#endregion UserId Annotations
 
         public int UserId { get; set; }
@@ -44,14 +43,6 @@ namespace FBRxweb.Models.Main
 
 
         public Nullable<System.DateTime> WorkEndDate { get; set; }
-
-		#region FacebookUser Annotations
-
-        [ForeignKey(nameof(UserId))]
-        [InverseProperty(nameof(FBRxweb.Models.Main.FacebookUser.FacebookUserWorks))]
-		#endregion FacebookUser Annotations
-
-        public virtual FacebookUser FacebookUser { get; set; }
 
 
         public FacebookUserWork()

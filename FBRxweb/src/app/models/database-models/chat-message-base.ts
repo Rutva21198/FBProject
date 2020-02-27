@@ -35,8 +35,4 @@ export class ChatMessageBase {
         sendDateTime : any;
 //#endregion sendDateTime Prop
 
-
-
-
-
 }

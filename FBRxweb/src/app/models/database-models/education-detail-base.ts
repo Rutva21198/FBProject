@@ -60,8 +60,4 @@ export class EducationDetailBase {
         userId : number;
 //#endregion userId Prop
 
-
-
-
-
 }

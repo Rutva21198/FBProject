@@ -27,17 +27,9 @@ namespace FBRxweb.Models.Main
 
         public string ApplicationObjectTypeName { get; set; }
 
-		#region FBApplicationObjects Annotations
-
-        [InverseProperty("FBApplicationObjectType")]
-		#endregion FBApplicationObjects Annotations
-
-        public virtual ICollection<FBApplicationObject> FBApplicationObjects { get; set; }
-
 
         public FBApplicationObjectType()
         {
-			FBApplicationObjects = new HashSet<FBApplicationObject>();
         }
 	}
 }
